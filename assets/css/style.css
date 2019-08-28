@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Franklin Gothic";
+    src: url(../fonts/fgothic.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: table;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    background-color: #141b23;
+    background-image: url(../images/main.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.all-content {
+    display: table-row;
+    height: 100%;
+}
+
+.rightpic {
+    float: right;
+    margin: 0;
+}
+
+.header {
+    height: 100px;
+    margin: 0px 43px 0px 55px;
+    padding: 65px 0px 0px 0px;
+}
+
+.menu {
+    width: 235px;
+    height: 15px;
+    opacity: 0.87;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+    color: #b1bbcb;
+    font-family: "Franklin Gothic";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.menu li {
+    display: inline-block
+}
+
+.menu a {
+    text-decoration: none;
+    color: #b1bbcb;
+    margin-right: 10px;
+}
+
+.main {
+    padding-left: 95px;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+    color: #ffffff;
+    font-family: "Franklin Gothic";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.6px;
+    width: 500px;
+}
+
+.headline {
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.text2 {
+    padding-top: 20px;
+}
+
+.footer {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 55px;
+    opacity: 0.27;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+    color: #ffffff;
+    font-family: "Franklin Gothic";
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 14.4px;
+}
+
+.popup {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.popup__container {
+    position: inherit;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50%); 
+    width: 330px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.popup__image {
+    margin-top: 25%;
+}
+
+.container__headline {
+    margin-top: 5%;
+    color: #000000;
+}
+
+.container__text {
+    margin-top: 5%;
+    color: #b1bbcb;
+}
+
+
+.container__button {
+    margin-top: 10%;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.popup__close {
+    position: inherit;
+    top: 2.5%;
+    left: 92%;
+}
+
